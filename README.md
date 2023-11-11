@@ -1,4 +1,4 @@
-# Siteation magento 2 module Viewtransition
+# Siteation Experiment - Magento 2 View Transitions
 
 ## Spec Explainer
 
