@@ -1,4 +1,4 @@
-# Siteation Experiment - Magento 2 View Transitions
+# Siteation Experiment - Magento 2 Cross Document View Transitions
 
 <!-- TODO: intro -->
 
