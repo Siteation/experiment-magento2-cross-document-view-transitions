@@ -1,5 +1,7 @@
 # Siteation Experiment - Magento 2 View Transitions
 
+<!-- TODO: intro -->
+
 ## Spec Explainer
 
 - Intro to view transitions: https://developer.chrome.com/docs/web-platform/view-transitions/
@@ -11,17 +13,28 @@
 
 ![preview](./assets/magento-view-transition.gif)
 
-<!-- TODO -->
+Add the following CSS to your main CSS file.
 
-```xml
-<?xml version="1.0"?>
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <head>
-        <meta name="view-transition" content="same-origin"/>
-    </head>
-</page>
+```css
+@view-transition {
+   navigation: auto;
+}
+
+@media (prefers-reduced-motion) {
+  @view-transition {
+    navigation: none;
+  }
+}
 ```
 
-<!-- PLP: `style="view-transition-name: product-<?= $productId ?>"` -->
-<!-- PDP: `style="view-transition-name: product-<?= $block->getProduct()->getId() ?>"` -->
+And for the nice transition of the product image make sure to add the following inline styles to each list item:
+
+```php
+style="view-transition-name: product-<?= $productId ?>"
+```
+
+and to the mian product gallery:
+
+```php
+style="view-transition-name: product-<?= $block->getProduct()->getId() ?>"
+```
