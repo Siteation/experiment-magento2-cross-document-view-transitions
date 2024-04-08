@@ -31,17 +31,17 @@ you can enhance user engagement and provide a more delightful shopping experienc
 
 3. **Apply Inline Styles:** Create smooth product image transitions by adding the following inline styles to each product list item and the main product gallery section:
 
-**Product List Item:**
+   **Product List Item:**
 
-```php
-style="view-transition-name: product-<?= $productId ?>"
-```
+   ```php
+   style="view-transition-name: product-<?= $productId ?>"
+   ```
 
-**Main Product Gallery:**
+   **Main Product Gallery:**
 
-```php
-style="view-transition-name: product-<?= $block->getProduct()->getId() ?>"
-```
+   ```php
+   style="view-transition-name: product-<?= $block->getProduct()->getId() ?>"
+   ```
 
 **Experiment, Explore, and Refine**
 
