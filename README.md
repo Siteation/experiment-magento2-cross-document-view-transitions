@@ -54,5 +54,6 @@ You can experiment with different animation properties (like `duration`, `timing
 - Introduction to View Transitions: [https://developer.chrome.com/docs/web-platform/view-transitions](https://developer.chrome.com/docs/web-platform/view-transitions)
 - Explainer for Cross Document View Transitions: [https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md](https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md)
 - CSSWG View Transitions Documentation: [https://developer.mozilla.org/en-US/docs/Web/API/ViewTransition](https://developer.mozilla.org/en-US/docs/Web/API/ViewTransition)
+- Google IO Talk: [https://youtu.be/eY6C_-aDdTo?si=quYRCJ3M9446ZMlx](https://youtu.be/eY6C_-aDdTo?si=quYRCJ3M9446ZMlx)
 
 **Disclaimer:** Remember that this is an experimental feature, and browser support might change in the future. Consider using feature detection or polyfills if you plan to integrate this into a production environment.
