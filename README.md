@@ -9,23 +9,15 @@ you can enhance user engagement and provide a more delightful shopping experienc
 
 ## Try it your self
 
-1. **Enable Chrome Flag:** Open Chrome and navigate to `chrome://flags/#view-transition-on-navigation`. Locate the "viewTransition API for navigations" flag and set it to "Enabled."
-
-2. **Include CSS:** Add the following CSS to your main CSS file to enable view transitions for navigation (and disable them for users with reduced motion preferences).
+1. **Include CSS:** Add the following CSS to your main CSS file to enable view transitions for navigation (and disable them for users with reduced motion preferences).
 
    ```css
    @view-transition {
      navigation: auto;
    }
-
-   @media (prefers-reduced-motion) {
-     @view-transition {
-       navigation: none;
-     }
-   }
    ```
 
-3. **Apply Inline Styles:** Create smooth product image transitions by adding the following inline styles to each product list item and the main product gallery section:
+2. **Apply Inline Styles:** Create smooth product image transitions by adding the following inline styles to each product list item and the main product gallery section:
 
    **Product List Item:**
 
