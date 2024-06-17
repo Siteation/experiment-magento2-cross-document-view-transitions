@@ -39,13 +39,13 @@ you can enhance user engagement and provide a more delightful shopping experienc
    style="view-transition-name: product-<?= $block->getProduct()->getId() ?>"
    ```
 
-**Experiment, Explore, and Refine**
+## Experiment, Explore, and Refine
 
 This example demonstrates the basic setup for cross-document view transitions using the View Transitions API. 
 
 You can experiment with different animation properties (like `duration`, `timing-function`, etc.) within your CSS to refine the transition behavior and create a unique experience for your store.
 
-**Additional Resources**
+## Additional Resources
 
 - Introduction to View Transitions: https://developer.chrome.com/docs/web-platform/view-transitions
 - Explainer for Cross Document View Transitions: https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md
