@@ -5,10 +5,6 @@ This project explores the Cross Document View Transitions API to create smooth a
 By leveraging this experimental browser feature (currently only available in Chrome),
 you can enhance user engagement and provide a more delightful shopping experience.
 
-> [!WARNING]
-> **Important Note:** As the View Transitions API is still under development,
-> this code is for experimentation only and should not be deployed on a production site.
-
 ![preview](./assets/magento-view-transition.gif)
 
 ## Try it your self
@@ -51,9 +47,11 @@ You can experiment with different animation properties (like `duration`, `timing
 
 **Additional Resources**
 
-- Introduction to View Transitions: [https://developer.chrome.com/docs/web-platform/view-transitions](https://developer.chrome.com/docs/web-platform/view-transitions)
-- Explainer for Cross Document View Transitions: [https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md](https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md)
-- CSSWG View Transitions Documentation: [https://developer.mozilla.org/en-US/docs/Web/API/ViewTransition](https://developer.mozilla.org/en-US/docs/Web/API/ViewTransition)
-- Google IO Talk: [https://youtu.be/eY6C_-aDdTo?si=quYRCJ3M9446ZMlx](https://youtu.be/eY6C_-aDdTo?si=quYRCJ3M9446ZMlx)
+- Introduction to View Transitions: [https://developer.chrome.com/docs/web-platform/view-transitions]
+- Explainer for Cross Document View Transitions: [https://github.com/WICG/view-transitions/blob/main/cross-doc-explainer.md]
+- CSSWG View Transitions Documentation: [https://developer.mozilla.org/en-US/docs/Web/API/ViewTransition]
+- Google IO Talk: [https://youtu.be/eY6C_-aDdTo?si=quYRCJ3M9446ZMlx]
+- Chrome Release 126 article: [https://developer.chrome.com/blog/new-in-chrome-126#cross-document-transitions]
+- Chrome Docs on cross-document view-transitions: [https://developer.chrome.com/docs/web-platform/view-transitions/cross-document]
 
 **Disclaimer:** Remember that this is an experimental feature, and browser support might change in the future. Consider using feature detection or polyfills if you plan to integrate this into a production environment.
